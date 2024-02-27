@@ -91,7 +91,15 @@ $('#movie-list').on('click', '.see-detail', function () {
                     <li class="list-group-item">Released : `+ movie.Released + `</li>
                     <li class="list-group-item">Genre : `+ movie.Genre + `</li>                 
                     <li class="list-group-item">Director : `+ movie.Director + `</li>                 
-                    <li class="list-group-item">Director : `+ movie.Actors + `</li>                 
+                    <li class="list-group-item">Awards   : `+ movie.Awards + `</li>
+                    <li class="list-group-item">Actors : `+ movie.Actors + `</li>
+                    <li class="list-group-item">Language : `+ movie.Language + `</li>
+                    <li class="list-group-item">Runtime : `+ movie.Runtime + `</li>
+                    <li class="list-group-item">Rating : `+ movie.imdbRating + `</li>
+                    <li class="list-group-item">Votes : `+ movie.imdbVotes + `</li>
+                    
+                    <li class="list-group-item">Plot : `+ movie.Plot + `</li>
+                    
                     </ul>
                     </div>
                     </div>
